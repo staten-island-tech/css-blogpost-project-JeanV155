@@ -1,0 +1,36 @@
+html,
+body,
+* {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: brown; 
+ color: black;
+text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 50px; 
+  
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h2 {
+   font-size: 60px; 
+   color: aqua;
+   text-align: center;
+}
