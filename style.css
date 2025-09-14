@@ -1,36 +1,49 @@
-html,
-body,
-* {
-  font-size: 10px;
-  padding: 0;
+/* Reset & base styles */
+html, body, * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: 'Story Script', cursive;
 }
 
-body {
-background-color: brown; 
- color: black;
-text-align: center;
-}
-h1 {
+body.page {
+  background-color: brown;
+  color: black;
   text-align: center;
-  font-size: 50px; 
-  
-  font-family: "Story Script", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  padding: 20px;
 }
 
-h2 {
-  font-size: 25px;
-  text-align: center;
-  font-family: "Story Script", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+/* Header */
+.header__title {
+  font-size: 50px;
+  margin-bottom: 2rem;
 }
 
-.h2 {
-   font-size: 60px; 
-   color: aqua;
-   text-align: center;
+/* Player sections */
+.player {
+  margin-bottom: 3rem;
 }
+
+.player__name {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+/* Images all same size */
+.player__image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.player__bio {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+
