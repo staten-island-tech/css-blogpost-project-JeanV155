@@ -16,17 +16,17 @@ body.page {
 /* Header */
 .header__title {
   font-size: 50px;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
 /* Player sections */
 .player {
-  margin-bottom: 3rem;
+  margin-bottom: 30px;
 }
 
 .player__name {
   font-size: 30px;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 
 /* Images all same size */
@@ -35,12 +35,12 @@ body.page {
   height: auto;
   border-radius: 10px;
   display: block;
-  margin: 0 auto 1rem;
+  margin: 0 auto 10px;
 }
 
 .player__bio {
   font-size: 18px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 10px;
 }
 
 
